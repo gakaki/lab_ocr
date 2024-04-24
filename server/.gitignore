@@ -1,0 +1,7 @@
+demos
+app
+bin
+lib
+share
+pyvenv.cfg
+.env

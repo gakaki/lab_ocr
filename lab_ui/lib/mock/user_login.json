@@ -1,0 +1,16 @@
+{
+  "status": 200,
+  "msg": null,
+  "data": {
+    "id"  : "id",
+    "lab_id"  : "lab_id",
+    "user_name"  : "user_name",
+    "password"  : "password",
+    "is_admin"  : "is_admin",
+    "last_login"  : "last_login",
+    "access_token"  : "access_token",
+    "refresh_token" : "refresh_token",
+    "disabled": false
+  },
+  "success": true
+}

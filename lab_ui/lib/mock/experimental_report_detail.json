@@ -1,0 +1,111 @@
+{
+  "code": 100200,
+  "msg": "success",
+  "data": {
+    "rows": [
+      {
+        "oss_path": "1_1/20240225/1_1-20240225-P24022502170310.webp",
+        "file_path": "/Users/macbook/Desktop/work/working/ftp_detect/lab_pic/1_1/20240225/images/P24022502170310.jpg",
+        "ocr": {
+          "pv": 60,
+          "sv": 54,
+          "warning": false
+        },
+        "time_in_range": {
+          "id": "65da30692761548ab0228b7c",
+          "camera_id": "",
+          "device_name": "设备1",
+          "username": "johndoe",
+          "pic": "",
+          "metrics": null,
+          "result": "",
+          "remarks": "",
+          "start_at": "2024-02-29T18:00:15.043000",
+          "end_at": "2024-02-29T18:30:15.043000"
+        },
+        "created_at": "2024-02-29T18:26:45.043000",
+        "file_time": "2024-02-29T18:26:45.043000"
+      },
+      {
+        "oss_path": "1_1/20240225/1_1-20240225-P24022502170310.webp",
+        "file_path": "/Users/macbook/Desktop/work/working/ftp_detect/lab_pic/1_1/20240225/images/P24022502170310.jpg",
+        "ocr": {
+          "pv": 45,
+          "sv": 43,
+          "warning": true
+        },
+        "time_in_range": {
+          "id": "65da30692761548ab0228b7c",
+          "camera_id": "",
+          "device_name": "设备1",
+          "username": "johndoe",
+          "pic": "",
+          "metrics": null,
+          "result": "",
+          "remarks": "",
+          "start_at": "2024-02-29T18:00:15.043000",
+          "end_at": "2024-02-29T18:30:15.043000"
+        },
+        "created_at": "2024-02-29T18:27:45.043000",
+        "file_time": "2024-02-29T18:27:45.043000"
+      },
+      {
+        "oss_path": "1_1/20240225/1_1-20240225-P24022502170310.webp",
+        "file_path": "/Users/macbook/Desktop/work/working/ftp_detect/lab_pic/1_1/20240225/images/P24022502170310.jpg",
+        "ocr": {
+          "pv": 26,
+          "sv": 19,
+          "warning": true
+        },
+        "time_in_range": {
+          "id": "65da30692761548ab0228b7c",
+          "camera_id": "",
+          "device_name": "设备1",
+          "username": "johndoe",
+          "pic": "",
+          "metrics": null,
+          "result": "",
+          "remarks": "",
+          "start_at": "2024-02-29T18:00:15.043000",
+          "end_at": "2024-02-29T18:30:15.043000"
+        },
+        "created_at": "2024-02-29T18:28:45.043000",
+        "file_time": "2024-02-29T18:28:45.043000"
+      },
+      {
+        "oss_path": "1_1/20240225/1_1-20240225-P24022502170310.webp",
+        "file_path": "/Users/macbook/Desktop/work/working/ftp_detect/lab_pic/1_1/20240225/images/P24022502170310.jpg",
+        "ocr": {
+          "pv": 1,
+          "sv": 17,
+          "warning": false
+        },
+        "time_in_range": {
+          "id": "65da30692761548ab0228b7c",
+          "camera_id": "",
+          "device_name": "设备1",
+          "username": "johndoe",
+          "pic": "",
+          "metrics": null,
+          "result": "",
+          "remarks": "",
+          "start_at": "2024-02-29T18:00:15.043000",
+          "end_at": "2024-02-29T18:30:15.043000"
+        },
+        "created_at": "2024-02-29T18:29:45.043000",
+        "file_time": "2024-02-29T18:29:45.043000"
+      }
+    ],
+    "length": 4,
+    "chart": [
+      {
+        "ratio": 25,
+        "type": "right"
+      },
+      {
+        "ratio": 75,
+        "type": "error"
+      }
+    ]
+  }
+}

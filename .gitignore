@@ -1,0 +1,4 @@
+demos
+/server/__pycache__
+/server/data
+/fastapi_mongodb-master

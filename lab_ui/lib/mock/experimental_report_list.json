@@ -1,0 +1,48 @@
+{
+  "status": 200,
+  "msg": null,
+  "data": [
+    {
+      "id": "1",
+      "camera_id": "1",
+      "device_name": "设备名1",
+      "user_id": "1",
+      "user_name": "user1",
+      "pic": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c42436323fee4cc6a19e0997cca78521~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?",
+      "metrics": [60,80,100],
+      "result": "success",
+      "remarks": "这个实验的效果很不错,下次继续努力了.这个实验的效果很不错,下次继续努力了.这个实验的效果很不错,下次继续努力了.",
+      "start_at": "2024-12-12 13:22:00",
+      "end_at": "2024-12-12 13:45:00"
+    },
+    {
+      "id": "2",
+      "camera_id": "2",
+      "device_name": "设备名2",
+      "user_id": "2",
+      "user_name": "user2",
+      "pic": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c42436323fee4cc6a19e0997cca78521~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?",
+      "metrics": [60,80,100],
+      "result": "fail",
+      "remarks": "实验失败,不要气馁,加油",
+      "start_at": "2024-12-12 14:22:00",
+      "end_at": "2024-12-12 14:45:00"
+    },
+    {
+      "id": "3",
+      "camera_id": "1",
+      "device_name": "设备名3",
+      "user_id": "2",
+      "user_name": "user2",
+      "pic": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c42436323fee4cc6a19e0997cca78521~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?",
+      "metrics": [40,40,100],
+      "result": "fail",
+      "remarks": "实验失败,不要气馁,加油",
+      "start_at": "2024-12-12 15:22:00",
+      "end_at": "2024-12-12 15:45:00"
+    }
+
+  ],
+  "description": null,
+  "success": true
+}

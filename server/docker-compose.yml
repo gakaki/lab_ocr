@@ -1,0 +1,44 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "18000:18000"
+    depends_on:
+      - db
+    volumes:
+      - ./:/app
+    env_file:
+      - .env
+    networks:
+      - backend  
+  db:
+    image: mongo:latest
+    ports:
+      - "27018:27017"
+    volumes:
+      - ./data/mongo:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: iloveNewipad3
+    restart: always
+    networks:
+      - backend  
+
+
+  # mongo-express:
+  #   image: mongo-express
+  #   restart: unless-stopped
+  #   depends_on:
+  #     - db
+  #   ports:
+  #     - 18081:8081
+  #   environment:
+  #     ME_CONFIG_MONGODB_ADMINUSERNAME: root
+  #     ME_CONFIG_MONGODB_ADMINPASSWORD: iloveNewipad3
+  #   networks:
+  #     - backend  
+
+networks:
+  backend:
+    driver: bridge
