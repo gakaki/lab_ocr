@@ -1,0 +1,21 @@
+FROM python:3.11
+
+
+WORKDIR /app
+
+COPY requirements.txt /app/
+
+RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --no-cache-dir -r requirements.txt
+
+COPY . /app/
+
+
+# CMD ["/bin/bash"]
+
+RUN sed -i s@/deb.debian.org/@/mirrors.aliyun.com/@g /etc/apt/sources.list.d/debian.sources
+
+RUN apt-get clean & apt-get update && apt-get install libgl1 ffmpeg libsm6 libxext6  -y
+
+EXPOSE 18021
+
+CMD ["python", "ftp.py"]

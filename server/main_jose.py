@@ -29,7 +29,7 @@ from file_deal import *
 
 
 # MongoDB连接配置
-client = MongoClient("mongodb://root:iloveNewipad3@db:27017")
+client = MongoClient("mongodb://root:iloveNewipad3@db:27018")
 db = client["lab"]
 coll_users = db["users"]
 coll_reports = db["reports"]

@@ -1,5 +1,15 @@
 version: '3.8'
 services:
+  ftp:
+    build:
+      context: ./  # Dockerfile所在的目录
+      dockerfile: Dockerfile.ftp    # 指定的Dockerfile文件名
+    ports:
+      - "18021-18040:18021-18040"
+    volumes:
+      - ./:/app
+    networks:
+      - backend
   web:
     build: .
     ports:

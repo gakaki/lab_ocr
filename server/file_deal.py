@@ -10,7 +10,7 @@ import cv2
 from ultralytics import YOLO
 import numpy as np
 import easyocr
-from app.yolo_ocr import detect_than_ocr
+from yolo_ocr import detect_than_ocr
 import requests
 import json
 import os
@@ -114,7 +114,6 @@ def post_body_than_get_json(url_path, data_map):
         print(response.text)
         return None
 
-
 def verify_time_in_range(file_path):
     res = post_body_than_get_json('/experiment/valid_range',
                                   {"file_path": file_path})
@@ -135,8 +134,6 @@ def save_ocr_res_to_db(oss_path, file_path, ocr_lines, time_in_range):
                                   })
     pprint(res)
     return res
-
-
 
 def file_path_detected(file_path):
     if not os.path.exists(file_path):
@@ -170,7 +167,6 @@ def file_path_detected(file_path):
     # cv2.imshow('PIL Image', pilImage)
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
-
 
 if __name__ == '__main__':
     file_path = "/Users/macbook/Desktop/work/working/ftp_detect/lab_pic/1_1/20240224/images/P24022416421510.jpg"
